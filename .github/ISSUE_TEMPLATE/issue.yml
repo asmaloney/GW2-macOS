@@ -1,0 +1,38 @@
+name: Issue
+description: File an issue
+assignees:
+  - asmaloney
+body:
+  - type: input
+    attributes:
+      label: macOS Version
+      description: What version of macOS are you using?
+      placeholder: "Example: macOS 12.6.3 (Intel)"
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label:  WineskinServer Version
+      description: What version of WineskinServer are you using?
+      placeholder: "Example: 1.8.4.2"
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label:  Wine Engine Version
+      description: What version of the Wine Engine are you using?
+      placeholder: "Example: WS11WineCX64Bit22.0.1-2"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Problem
+      description: Please describe the problem in as much detail as possible and include screenshots.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Additional Information
+      description: Any other information you think is useful to track down the problem including other things you tried.
+    validations:
+      required: false
