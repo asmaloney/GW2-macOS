@@ -7,3 +7,5 @@ This repository is a place to discuss & troubleshoot issues with my tutorial on 
 WordPress is not a great medium for back-and-forth forum-like discussion - especially when you need images.
 
 If you have gone through the tutorial and can't get it to work, or you find a problem with it, please [create an issue](https://github.com/asmaloney/GW2-macOS/issues) here with as much information as possible (including screenshots).
+
+**Note:** This project is in no way affiliated with ArenaNet. The .icns file in the icons folder is from the old macOS client and is provided here as a convenience. The Guild Wars 2 logo is © ArenaNet LLC.
